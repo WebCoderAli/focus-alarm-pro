@@ -1,19 +1,31 @@
-# Focus Alarm Pro ⏰
+# ⏰ Focus Alarm Pro
 
-A productivity Chrome Extension that helps users control their browsing habits by automatically closing distracting tabs after a timer finishes while keeping selected tabs open.
+**Focus Alarm Pro** is a productivity Chrome Extension that helps users control distractions while browsing.
+It allows users to set a timer and automatically close distracting tabs while keeping selected tabs open.
 
-## 🚀 Features
+---
+
+## 🚀 Live Repository
+
+GitHub Repository:
+https://github.com/WebCoderAli/focus-alarm-pro
+
+---
+
+# ✨ Features
 
 * ⏳ Set a timer for entertainment or break time
-* 📑 Select multiple tabs to keep open
-* ❌ Automatically closes all other tabs when time runs out
+* 📑 Select **multiple tabs to keep open**
+* ❌ Automatically closes all other tabs when the timer ends
 * ⏱ Live countdown timer
 * 🛑 Cancel timer anytime
-* 🎨 Clean and simple user interface
-* 💾 Uses Chrome storage to preserve timer state
-* 🔒 Lightweight and privacy-friendly (no external data collection)
+* 🎨 Clean and simple UI
+* ⚡ Lightweight and fast
+* 🔒 Privacy friendly (no external data collection)
 
-## 📸 How It Works
+---
+
+# 🖥️ How It Works
 
 1. Open the extension popup.
 2. Select the tabs you want to **keep open**.
@@ -21,73 +33,106 @@ A productivity Chrome Extension that helps users control their browsing habits b
 4. Click **Start Timer**.
 5. When the timer finishes, all other tabs will close automatically.
 
-This helps eliminate distractions like social media, videos, or gaming sites while keeping your important work tabs active.
+This helps eliminate distractions like:
 
-## 📂 Project Structure
+* YouTube
+* Social media
+* Gaming sites
+* Entertainment websites
+
+while keeping your important work tabs active.
+
+---
+
+# 📂 Project Structure
 
 ```
 focus-alarm-pro
 │
-├── manifest.json        # Chrome extension configuration
-├── popup.html           # Extension popup UI
-├── popup.js             # Popup logic and timer
-├── background.js        # Handles closing tabs when timer ends
-├── style.css            # UI styling
+├── manifest.json
+├── popup.html
+├── popup.js
+├── background.js
+├── style.css
+├── README.md
 │
 └── icons
     ├── icon16.png
     ├── icon32.png
+    ├── icon48.png
     └── icon128.png
 ```
 
-## 🛠 Installation (Developer Mode)
+---
 
-1. Clone this repository:
+# ⚙️ Installation (Developer Mode)
+
+1. Clone the repository
 
 ```
-git clone https://github.com/yourusername/focus-alarm-pro.git
+git clone https://github.com/WebCoderAli/focus-alarm-pro.git
 ```
 
-2. Open Google Chrome and go to:
+2. Open **Google Chrome**
+
+3. Go to
 
 ```
 chrome://extensions/
 ```
 
-3. Enable **Developer Mode** (top right).
+4. Enable **Developer Mode**
 
-4. Click **Load unpacked**.
+5. Click **Load unpacked**
 
-5. Select the project folder.
+6. Select the project folder.
 
-The extension will now appear in your browser.
+The extension will now appear in your Chrome toolbar.
 
-## 🧑‍💻 Technologies Used
+---
+
+# 🛠 Technologies Used
 
 * HTML
 * CSS
 * JavaScript
 * Chrome Extension API (Manifest V3)
 
-## 🎯 Use Cases
+---
+
+# 🎯 Use Cases
 
 * Students studying online
-* Developers who want to avoid distractions
-* Productivity and focus sessions
+* Developers avoiding distractions
+* Productivity sessions
 * Time-limited entertainment browsing
 
-## 🔮 Future Improvements
+---
 
-* Notification warning before tabs close
-* Website auto-detection (YouTube, Netflix, etc.)
-* Focus statistics and productivity reports
-* Dark mode UI
-* Pomodoro timer mode
+# 🔮 Future Improvements
 
-## 📜 License
+* 🔔 Warning notification before tabs close
+* 🌙 Dark mode UI
+* 📊 Productivity statistics
+* 🎯 Auto-detect entertainment sites
+* 🍅 Pomodoro timer mode
 
-This project is open-source and available under the MIT License.
+---
 
-## ⭐ Support
+# 🤝 Contributing
 
-If you like this project, consider giving it a **star on GitHub** to support development.
+Contributions are welcome.
+Feel free to fork this repository and submit pull requests.
+
+---
+
+# 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+# ⭐ Support
+
+I
+
